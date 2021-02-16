@@ -5,7 +5,41 @@ Your code goes below.
 */
 
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = "Lee";
+let greeting = "HEY"
 
+
+function multiply (input1) {
+  x = x * input1;
+
+}
+
+
+
+function modYBy (input2) {
+  y = y % input2;
+
+}
+
+function opposite (input3) {
+  z = -input3;
+
+}
+
+function makeFullName (string1) {
+  name = name + " " + string1;
+
+}
+
+function yellAt (string2) {
+greeting = greeting + ", " + string2 + "!";
+
+
+
+}
 
 
 
